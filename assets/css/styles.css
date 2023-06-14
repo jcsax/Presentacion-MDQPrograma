@@ -158,8 +158,11 @@ background-color: #d0d5d8b1;
     width: 100%;
     height: 400px;
     overflow: hidden;
+    
 }
-
+.slide-menu {
+    display: none;
+}
 .slides {
     position: absolute;
     top: 0;
@@ -184,6 +187,6 @@ background-color: #d0d5d8b1;
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-50%);
+        transform: translateX(-60%);
     }
 }
