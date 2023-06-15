@@ -37,7 +37,7 @@ background-color: #f0f0f0;
     position: relative; left: 5%;
     width: max-content;
     padding: 5px;
-    bottom: 0;
+    bottom: -15px;
     width: 90%;
     text-align: center;
 
@@ -75,11 +75,18 @@ footer {
 
 h1, h2 {
     color: #f4c988;
+    text-shadow: 3px 3px 6px black;
     position: static; left: 5%
     }
 
-h3, h4 {
+h3 {
     color: #ece5dfde;
+    text-shadow: 3px 3px 6px black;
+    position: static; left: 5%
+    }
+h4 {
+    color: #ffffff;
+    text-shadow: 3px 3px 6px black;
     position: static; left: 5%
     }
 h5 {
@@ -114,10 +121,12 @@ padding: 10px 15px;
 
 nav ul li a:hover {
 background-color: #c9c6ab43;
+border-radius: 15%;
 }
 
 nav ul li.dropdown {
 position: relative;
+border-radius: 15%;
 }
 
 nav ul li.dropdown:hover .dropdown-menu {
@@ -130,6 +139,7 @@ position: absolute;
 top: 100%;
 left: 0;
 background-color: #c9c6ab4f;
+border-radius: 15%;
 padding: 10px;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
